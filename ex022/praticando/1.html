@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliveira Foods</title>
+    <style>
+        body{
+            padding:0px;
+            margin: 0px;
+        }
+        header{
+            background-image: linear-gradient(to bottom, red, black);
+            padding: 0.1px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 3em;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 102%;
+        }
+        .nav ul{
+            display: flex;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav li{
+            margin-left: 35px;
+        }
+        .nav a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 2px;
+            
+        }
+       .box{
+        background-color: black;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        flex-basis: calc(40% - -1px);
+        margin: 2px;
+        padding: 19px;
+        margin-left: 90px;
+    }
+
+
+    #box1{
+        
+        background-image: url(promo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+    #box2{
+        background-image: url(prod.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+    #box3{
+        background-image: url(promo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+    #box4{
+        background-image: url(promo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+   
+    .t{
+        margin: 150px;
+        color: #ccc;
+        font-size: 3em;
+        position: static;
+        margin-top: 10px;
+        margin-left: -10px;
+        
+    }
+    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La casa do Hamburguer</h1>
+        <navbar class="nav">
+            <ul>
+                <li class="a"><a href="#">Cardapio</a></li>
+                <li><a href="#">Pedidos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contatos</a></li>
+
+            </ul>
+        </navbar>
+    </header>
+    
+    <main>
+        <div class="box" id="box1"><div class="h2-contendo"><h2 class="t"> Promoções</h2></div>
+            </div>
+        
+        <div class="box" id="box2"><h2 class="t">Produtos</h2>
+            </div>
+
+        <div class="box" id="box3"><h2 class="t">Pedidos</h2>
+            </div>
+
+        <div class="box" id="box4"><h2 class="t">Feedbacks</h2>
+           </div>
+
+    </main>
+
+    
+</body>
+</html>
