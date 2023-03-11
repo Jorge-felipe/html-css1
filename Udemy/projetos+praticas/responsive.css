@@ -1,0 +1,46 @@
+@media (max-width: 1200px){
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contem{
+        width:100%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .about-me p{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    main .contem .about-me p
+    {
+        text-align: center;
+    }
+}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 2em;
+    }
+    header nav{
+        margin-top: 24px;
+    }
+    main .techs .card-container .card{
+        width:60px;
+        height:60px;
+    }
+    main .contem h2{
+        font-size: 1.1em;
+        margin-bottom: 28px;
+    }
+}
+
