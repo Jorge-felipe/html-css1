@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+header{
+    background-color: rgb(59, 58, 58);
+    color: aliceblue;
+    display: flow-root;
+}
+header h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 2.5em;    
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+header h1:hover{
+    color: aqua;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    transition: 0.25s ease-in-out;
+}
+nav a:hover{
+    
+    color: aqua;
+}
+
+main {
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 3%;
+}
+footer{
+    background-color: rgb(59, 58, 58);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2px;
+    margin-top: 5.8%;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}

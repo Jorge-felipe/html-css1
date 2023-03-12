@@ -1,0 +1,13 @@
+@media (max-width: 800px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8px;
+    }
+
+}
+@media (min-width: 600px)and (orientation: landscape){
+    main{
+        background-color: aqua;
+    }
+}
